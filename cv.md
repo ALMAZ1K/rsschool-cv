@@ -33,6 +33,7 @@
 ## 5. CODE EXAMPLES
 $(document).ready(function(){
  
+ 
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
             $('.scrollup').fadeIn();
@@ -45,6 +46,7 @@ $(document).ready(function(){
             return false;
     });  
     });
+
 
     $(document).ready(function(){
         $("#myTopnav").on("click","a", function (event) {
